@@ -1,0 +1,49 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.container{
+   
+    background: rgb(255, 239, 239);
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   padding: 20px;
+   box-shadow: 0 0 8px gray;
+}
+.btn{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.zero{
+   width: 130px;
+   
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input{
+   width: 90%;
+   padding: 10px;
+   border: 1px solid black;
+   
+}
+.ac{
+    width: 130px;
+}
+.divide{
+    width: 120px;
+}
